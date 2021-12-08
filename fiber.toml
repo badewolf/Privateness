@@ -10,17 +10,17 @@ blockchain_seckey_str = ""
 genesis_timestamp = 1638570731
 genesis_coin_volume = 165e12
 default_connections = [
-    "192.243.100.192:6660",
-    "167.114.97.165:6660",
-    "198.245.62.172:6660",
-    "94.23.56.111:6660",
-    "154.16.118.97:6660",
-    "179.61.232.155:6660",
-    "151.80.37.6:6660",
+#    "192.243.100.192:6660",
+#    "167.114.97.165:6660",
+#    "198.245.62.172:6660",
+#    "94.23.56.111:6660",
+#    "154.16.118.97:6660",
+#    "179.61.232.155:6660",
+#    "151.80.37.6:6660",
 ]
 
-peer_list_url = "https://nodes.privateness.network/blockchain/peers.txt"
-port = 6660
+#peer_list_url = "https://nodes.privateness.network/blockchain/peers.txt"
+port = 6666
 web_interface_port = 6460
 # web_interface_addr = "127.0.0.1"
 # unconfirmed_burn_factor = 10
@@ -30,7 +30,7 @@ web_interface_port = 6460
 # create_block_max_transaction_size = 32 * 1024
 # create_block_max_decimals = 3
 # max_block_transactions_size = 32 * 1024
-display_name = "PrivateNess"
+display_name = "PrivateNess-Release-Candidate-Test-ledger"
 ticker = "NESS"
 coin_hours_display_name = "Coin Hours"
 coin_hours_display_name_singular = "Coin Hour"
@@ -38,7 +38,7 @@ coin_hours_ticker = "NCH"
 qr_uri_prefix = "privateness"
 explorer_url = "https://explorer.privateness.network"
 version = "https://nodes.privateness.network/blockchain/version.txt"
-#bip44_coin = 8000
+bip44_coin = 8000
 
 [params]
 max_coin_supply = 1.65e8
@@ -48,6 +48,7 @@ initial_unlocked_count = 100
 # user_max_decimals = 3
 # user_max_transaction_size = 32 * 1024
 user_burn_factor = 10
+# adresses de tests
 distribution_addresses = [
 "2ZVr2q7rwHYGgHHWeXH1FgEg5XgmayWK6DH",
 "27kyzPdyy8pdeezEYJ6A1QJ8WCBJLAkDymH",
