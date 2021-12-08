@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Runs skycoin in daemon mode configuration
+# Runs privateness in daemon mode configuration
 
 set -x
 
@@ -14,7 +14,7 @@ GOLDFLAGS="-X main.Commit=${COMMIT} -X main.Branch=${BRANCH}"
 
 GORUNFLAGS=${GORUNFLAGS:-}
 
-go run -ldflags "${GOLDFLAGS}" $GORUNFLAGS cmd/skycoin/skycoin.go \
+go run -ldflags "${GOLDFLAGS}" $GORUNFLAGS cmd/privateness/privateness.go \
     -enable-gui=false \
     -launch-browser=false \
     -log-level=debug \

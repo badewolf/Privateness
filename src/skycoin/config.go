@@ -249,7 +249,7 @@ func NewNodeConfig(mode string, node NodeParameters) NodeConfig {
 		// MaxConnections is the maximum number of total connections allowed
 		MaxConnections: 128,
 		// MaxOutgoingConnections is the maximum outgoing connections allowed
-		MaxOutgoingConnections: 8,
+		MaxOutgoingConnections: 0,
 		// MaxDefaultOutgoingConnections is the maximum default outgoing connections allowed
 		MaxDefaultPeerOutgoingConnections: 1,
 		DownloadPeerList:                  true,
@@ -308,8 +308,8 @@ func NewNodeConfig(mode string, node NodeParameters) NodeConfig {
 		// Timeout settings for http.Server
 		// https://blog.cloudflare.com/the-complete-guide-to-golang-net-http-timeouts/
 		HTTPReadTimeout:  time.Second * 10,
-		HTTPWriteTimeout: time.Second * 60,
-		HTTPIdleTimeout:  time.Second * 120,
+		HTTPWriteTimeout: time.Second * 30,
+		HTTPIdleTimeout:  time.Second * 60,
 
 		RunBlockPublisher: false,
 

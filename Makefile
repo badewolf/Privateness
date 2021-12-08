@@ -1,5 +1,4 @@
-.DEFAULT_GOAL := help
-.PHONY: run run-help test test-386 test-amd64 check check-newcoin
+.PHONY: run run-help run-client run-daemon test test-386 test-amd64 check check-newcoin
 .PHONY: integration-test-stable integration-test-stable-disable-csrf
 .PHONY: integration-test-live integration-test-live-wallet
 .PHONY: integration-test-disable-wallet-api integration-test-disable-seed-api
@@ -9,9 +8,9 @@
 .PHONY: install-linters format release clean-release clean-coverage
 .PHONY: install-deps-ui build-ui build-ui-travis help newcoin merge-coverage
 .PHONY: generate update-golden-files
-.PHONY: fuzz-base58 fuzz-encoder
+.PHONY: fuzz-base58 fuzz-encoder run-client run-daemon
 
-COIN ?= skycoin
+COIN ?= privateness
 
 # Static files directory
 GUI_STATIC_DIR = src/gui/static
@@ -57,8 +56,8 @@ lint: ## Run linters. Use make install-linters first.
 	go vet -all ./...
 
 check-newcoin: newcoin ## Check that make newcoin succeeds and no templated files are changed.
-	@if [ "$(shell git diff ./cmd/skycoin/skycoin.go | wc -l | tr -d ' ')" != "0" ] ; then echo 'Changes detected after make newcoin' ; exit 2 ; fi
-	@if [ "$(shell git diff ./cmd/skycoin/skycoin_test.go | wc -l | tr -d ' ')" != "0" ] ; then echo 'Changes detected after make newcoin' ; exit 2 ; fi
+	@if [ "$(shell git diff ./cmd/privateness/privateness.go | wc -l | tr -d ' ')" != "0" ] ; then echo 'Changes detected after make newcoin' ; exit 2 ; fi
+	@if [ "$(shell git diff ./cmd/privateness/privateness_test.go | wc -l | tr -d ' ')" != "0" ] ; then echo 'Changes detected after make newcoin' ; exit 2 ; fi
 	@if [ "$(shell git diff ./src/params/params.go | wc -l | tr -d ' ')" != "0" ] ; then echo 'Changes detected after make newcoin' ; exit 2 ; fi
 
 check: lint clean-coverage test test-386 \
@@ -113,8 +112,8 @@ install-linters: ## Install linters
 	go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
 
 format: ## Formats the code. Must have goimports installed (use make install-linters).
-	goimports -w -local github.com/skycoin/skycoin ./cmd
-	goimports -w -local github.com/skycoin/skycoin ./src
+	goimports -w -local github.com/ness-network/privateness ./cmd
+	goimports -w -local github.com/ness-network/privateness ./src
 
 install-deps-ui:  ## Install the UI dependencies
 	cd $(GUI_STATIC_DIR) && npm install
@@ -194,11 +193,11 @@ merge-coverage: ## Merge coverage files and create HTML coverage output. gocovme
 	@echo "Open coverage/all-coverage.html in your browser to view"
 
 fuzz-base58: ## Fuzz the base58 package. Requires https://github.com/dvyukov/go-fuzz
-	go-fuzz-build github.com/skycoin/skycoin/src/cipher/base58/internal
+	go-fuzz-build github.com/ness-network/skycoin/src/cipher/base58/internal
 	go-fuzz -bin=base58fuzz-fuzz.zip -workdir=src/cipher/base58/internal
 
 fuzz-encoder: ## Fuzz the encoder package. Requires https://github.com/dvyukov/go-fuzz
-	go-fuzz-build github.com/skycoin/skycoin/src/cipher/encoder/internal
+	go-fuzz-build github.com/ness-network/skycoin/src/cipher/encoder/internal
 	go-fuzz -bin=encoderfuzz-fuzz.zip -workdir=src/cipher/encoder/internal
 
 help:

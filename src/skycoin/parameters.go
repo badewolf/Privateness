@@ -124,9 +124,9 @@ func NewParameters(configName, appDir string) (Parameters, error) {
 
 func setDefaults() {
 	// node defaults
-	viper.SetDefault("node.genesis_coin_volume", 100e12)
-	viper.SetDefault("node.port", 6000)
-	viper.SetDefault("node.web_interface_port", 6420)
+	viper.SetDefault("node.genesis_coin_volume", 165e12)
+	viper.SetDefault("node.port", 6660)
+	viper.SetDefault("node.web_interface_port", 6460)
 	viper.SetDefault("node.unconfirmed_burn_factor", 10)
 	viper.SetDefault("node.unconfirmed_max_transaction_size", 32*1024)
 	viper.SetDefault("node.unconfirmed_max_decimals", 3)
@@ -140,10 +140,10 @@ func setDefaults() {
 	viper.SetDefault("build.branch", "")
 
 	// params defaults
-	viper.SetDefault("params.max_coin_supply", 1e8)
-	viper.SetDefault("params.distribution_addresses_total", 100)
-	viper.SetDefault("params.initial_unlocked_count", 25)
-	viper.SetDefault("params.unlock_address_rate", 5)
+	viper.SetDefault("params.max_coin_supply", 165e8)
+	viper.SetDefault("params.distribution_addresses_total", 10)
+	viper.SetDefault("params.initial_unlocked_count", 10)
+	viper.SetDefault("params.unlock_address_rate", 0)
 	viper.SetDefault("params.unlock_time_interval", 60*60*24*365)
 	viper.SetDefault("params.user_max_decimals", 3)
 	viper.SetDefault("params.user_burn_factor", 10)
