@@ -10,7 +10,7 @@
 .PHONY: generate update-golden-files
 .PHONY: fuzz-base58 fuzz-encoder run-client run-daemon
 
-COIN ?= privateness
+COIN ?= ness3
 
 # Static files directory
 GUI_STATIC_DIR = src/gui/static
