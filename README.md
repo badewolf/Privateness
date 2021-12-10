@@ -1,10 +1,6 @@
 ![skycoin logo](https://user-images.githubusercontent.com/26845312/32426705-d95cb988-c281-11e7-9463-a3fce8076a72.png)
 
-# Skycoin
-
-[![Go](https://github.com/ness-network/privateness/workflows/Go/badge.svg)](https://github.com/ness-network/privateness/actions)
-[![GoDoc](https://godoc.org/github.com/skycoin/skycoin?status.svg)](https://godoc.org/github.com/skycoin/skycoin)
-[![Go Report Card](https://goreportcard.com/badge/github.com/skycoin/skycoin)](https://goreportcard.com/report/github.com/skycoin/skycoin)
+# Privateness is based on Skycoin's Fiber platform
 
 Skycoin is a next-generation cryptocurrency.
 
