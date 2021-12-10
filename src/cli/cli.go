@@ -21,9 +21,9 @@ import (
 	"github.com/spf13/pflag"
 	"golang.org/x/crypto/ssh/terminal"
 
-	"github.com/skycoin/skycoin/src/api"
-	"github.com/skycoin/skycoin/src/util/file"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/api"
+	"github.com/ness-network/privateness/src/util/file"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 var (

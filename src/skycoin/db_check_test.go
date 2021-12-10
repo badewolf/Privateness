@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/visor/dbutil"
 )
 
 func TestCheckDB(t *testing.T) {

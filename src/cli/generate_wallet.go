@@ -7,12 +7,12 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/skycoin/skycoin/src/api"
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/bip39"
-	"github.com/skycoin/skycoin/src/cipher/bip44"
-	secp256k1 "github.com/skycoin/skycoin/src/cipher/secp256k1-go"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/api"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/bip39"
+	"github.com/ness-network/privateness/src/cipher/bip44"
+	secp256k1 "github.com/ness-network/privateness/src/cipher/secp256k1-go"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 const (

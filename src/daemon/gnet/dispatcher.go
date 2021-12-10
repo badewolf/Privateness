@@ -10,8 +10,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/skycoin/skycoin/src/cipher/encoder"
-	"github.com/skycoin/skycoin/src/util/mathutil"
+	"github.com/ness-network/privateness/src/cipher/encoder"
+	"github.com/ness-network/privateness/src/util/mathutil"
 )
 
 var (

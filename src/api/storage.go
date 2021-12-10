@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/skycoin/skycoin/src/kvstorage"
+	"github.com/ness-network/privateness/src/kvstorage"
 )
 
 // Dispatches /data endpoint.

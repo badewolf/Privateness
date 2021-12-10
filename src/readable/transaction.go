@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/util/droplet"
-	"github.com/skycoin/skycoin/src/util/logging"
-	"github.com/skycoin/skycoin/src/util/timeutil"
-	"github.com/skycoin/skycoin/src/visor"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/util/droplet"
+	"github.com/ness-network/privateness/src/util/logging"
+	"github.com/ness-network/privateness/src/util/timeutil"
+	"github.com/ness-network/privateness/src/visor"
 )
 
 var logger = logging.MustGetLogger("readable")

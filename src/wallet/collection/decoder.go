@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 // JSONDecoder implements the Decoder interface for deterministic wallet

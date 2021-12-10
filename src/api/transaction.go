@@ -10,14 +10,14 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/daemon"
-	"github.com/skycoin/skycoin/src/readable"
-	"github.com/skycoin/skycoin/src/transaction"
-	wh "github.com/skycoin/skycoin/src/util/http"
-	"github.com/skycoin/skycoin/src/util/mathutil"
-	"github.com/skycoin/skycoin/src/visor"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/daemon"
+	"github.com/ness-network/privateness/src/readable"
+	"github.com/ness-network/privateness/src/transaction"
+	wh "github.com/ness-network/privateness/src/util/http"
+	"github.com/ness-network/privateness/src/util/mathutil"
+	"github.com/ness-network/privateness/src/visor"
 )
 
 // pendingTxnsHandler returns pending (unconfirmed) transactions

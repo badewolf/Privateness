@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/transaction"
-	"github.com/skycoin/skycoin/src/util/fee"
-	"github.com/skycoin/skycoin/src/visor/blockdb"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
-	"github.com/skycoin/skycoin/src/visor/historydb"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/transaction"
+	"github.com/ness-network/privateness/src/util/fee"
+	"github.com/ness-network/privateness/src/visor/blockdb"
+	"github.com/ness-network/privateness/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/visor/historydb"
 )
 
 const (

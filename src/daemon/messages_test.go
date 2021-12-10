@@ -9,14 +9,14 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/encoder"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/pex"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/util/useragent"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/encoder"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/daemon/gnet"
+	"github.com/ness-network/privateness/src/daemon/pex"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/util/useragent"
 )
 
 func TestIntroductionMessage(t *testing.T) {

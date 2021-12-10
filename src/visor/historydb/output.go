@@ -3,9 +3,9 @@ package historydb
 import (
 	"fmt"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/visor/dbutil"
 )
 
 //go:generate skyencoder -unexported -struct UxOut

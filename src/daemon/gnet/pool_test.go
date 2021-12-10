@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/util/logging"
+	"github.com/ness-network/privateness/src/util/logging"
 )
 
 const (

@@ -11,10 +11,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/bip44"
-	"github.com/skycoin/skycoin/src/cipher/crypto"
-	"github.com/skycoin/skycoin/src/util/file"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/bip44"
+	"github.com/ness-network/privateness/src/cipher/crypto"
+	"github.com/ness-network/privateness/src/util/file"
 )
 
 // TransactionsFinder interface for finding address related transaction hashes

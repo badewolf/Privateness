@@ -1,8 +1,8 @@
 package readable
 
 import (
-	"github.com/skycoin/skycoin/src/util/droplet"
-	"github.com/skycoin/skycoin/src/visor"
+	"github.com/ness-network/privateness/src/util/droplet"
+	"github.com/ness-network/privateness/src/visor"
 )
 
 // RichlistBalance holds info an address balance holder

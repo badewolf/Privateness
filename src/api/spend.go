@@ -9,17 +9,17 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/transaction"
-	"github.com/skycoin/skycoin/src/util/droplet"
-	"github.com/skycoin/skycoin/src/util/fee"
-	wh "github.com/skycoin/skycoin/src/util/http"
-	"github.com/skycoin/skycoin/src/util/mathutil"
-	"github.com/skycoin/skycoin/src/visor"
-	"github.com/skycoin/skycoin/src/visor/blockdb"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/transaction"
+	"github.com/ness-network/privateness/src/util/droplet"
+	"github.com/ness-network/privateness/src/util/fee"
+	wh "github.com/ness-network/privateness/src/util/http"
+	"github.com/ness-network/privateness/src/util/mathutil"
+	"github.com/ness-network/privateness/src/visor"
+	"github.com/ness-network/privateness/src/visor/blockdb"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 // CreateTransactionResponse is returned by /wallet/transaction

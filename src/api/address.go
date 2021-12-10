@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/ness-network/privateness/src/cipher"
 )
 
 // VerifyAddressRequest is the request data for POST /api/v2/address/verify

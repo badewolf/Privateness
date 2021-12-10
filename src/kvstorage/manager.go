@@ -8,8 +8,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/skycoin/skycoin/src/util/file"
-	"github.com/skycoin/skycoin/src/util/logging"
+	"github.com/ness-network/privateness/src/util/file"
+	"github.com/ness-network/privateness/src/util/logging"
 )
 
 // Type is a type of a key-value storage

@@ -8,10 +8,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/util/iputil"
-	"github.com/skycoin/skycoin/src/util/useragent"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/util/iputil"
+	"github.com/ness-network/privateness/src/util/useragent"
 )
 
 // ConnectionState connection state in the state machine

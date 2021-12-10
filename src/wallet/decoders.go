@@ -3,7 +3,7 @@ package wallet
 import (
 	"fmt"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/ness-network/privateness/src/cipher"
 )
 
 var registeredAddressSecKeyDecoders = initAddressSecKeyDecoders()

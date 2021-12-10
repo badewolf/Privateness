@@ -13,16 +13,16 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/skycoin/skycoin/src/fiber"
-	"github.com/skycoin/skycoin/src/readable"
-	"github.com/skycoin/skycoin/src/skycoin"
-	"github.com/skycoin/skycoin/src/util/logging"
+	"github.com/ness-network/privateness/src/fiber"
+	"github.com/ness-network/privateness/src/readable"
+	"github.com/ness-network/privateness/src/skycoin"
+	"github.com/ness-network/privateness/src/util/logging"
 
 	// register the supported wallets
-	_ "github.com/skycoin/skycoin/src/wallet/bip44wallet"
-	_ "github.com/skycoin/skycoin/src/wallet/collection"
-	_ "github.com/skycoin/skycoin/src/wallet/deterministic"
-	_ "github.com/skycoin/skycoin/src/wallet/xpubwallet"
+	_ "github.com/ness-network/privateness/src/wallet/bip44wallet"
+	_ "github.com/ness-network/privateness/src/wallet/collection"
+	_ "github.com/ness-network/privateness/src/wallet/deterministic"
+	_ "github.com/ness-network/privateness/src/wallet/xpubwallet"
 )
 
 var (

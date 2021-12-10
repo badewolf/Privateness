@@ -11,20 +11,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/skycoin/skycoin/src/cipher/crypto"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/fiber"
-	"github.com/skycoin/skycoin/src/kvstorage"
+	"github.com/ness-network/privateness/src/cipher/crypto"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/fiber"
+	"github.com/ness-network/privateness/src/kvstorage"
 
 	"log"
 
-	"github.com/skycoin/skycoin/src/api"
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/readable"
-	"github.com/skycoin/skycoin/src/util/droplet"
-	"github.com/skycoin/skycoin/src/util/file"
-	"github.com/skycoin/skycoin/src/util/useragent"
+	"github.com/ness-network/privateness/src/api"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/readable"
+	"github.com/ness-network/privateness/src/util/droplet"
+	"github.com/ness-network/privateness/src/util/file"
+	"github.com/ness-network/privateness/src/util/useragent"
 )
 
 var (

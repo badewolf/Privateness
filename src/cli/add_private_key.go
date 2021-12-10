@@ -7,9 +7,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/wallet"
-	"github.com/skycoin/skycoin/src/wallet/collection"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/wallet"
+	"github.com/ness-network/privateness/src/wallet/collection"
 )
 
 func addPrivateKeyCmd() *cobra.Command {

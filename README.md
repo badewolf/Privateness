@@ -2,7 +2,7 @@
 
 # Skycoin
 
-[![Go](https://github.com/skycoin/skycoin/workflows/Go/badge.svg)](https://github.com/skycoin/skycoin/actions)
+[![Go](https://github.com/ness-network/privateness/workflows/Go/badge.svg)](https://github.com/ness-network/privateness/actions)
 [![GoDoc](https://godoc.org/github.com/skycoin/skycoin?status.svg)](https://godoc.org/github.com/skycoin/skycoin)
 [![Go Report Card](https://goreportcard.com/badge/github.com/skycoin/skycoin)](https://goreportcard.com/report/github.com/skycoin/skycoin)
 
@@ -38,7 +38,7 @@ scratch, to remedy the rough edges in the Bitcoin design.
 * [Skycoin Docs](https://www.skycoin.com/docs)
 * [Skycoin Blockchain Explorer](https://explorer.skycoin.com)
 * [Skycoin Development Telegram Channel](https://t.me/skycoindev)
-* [Skycoin Github Wiki](https://github.com/skycoin/skycoin/wiki)
+* [Skycoin Github Wiki](https://github.com/ness-network/privateness/wiki)
 
 ## Table of Contents
 
@@ -117,7 +117,7 @@ Skycoin supports go1.14+.
 ### Go get skycoin
 
 ```sh
-$ go get github.com/skycoin/skycoin/cmd/...
+$ go get github.com/ness-network/privateness/cmd/...
 ```
 
 This will download `github.com/skycoin/skycoin` to `$GOPATH/src/github.com/skycoin/skycoin`.
@@ -245,7 +245,7 @@ However, do not use this URI in QR codes displayed to the user, because the addr
 
 ## Wire protocol user agent
 
-[Wire protocol user agent description](https://github.com/skycoin/skycoin/wiki/Wire-protocol-user-agent)
+[Wire protocol user agent description](https://github.com/ness-network/privateness/wiki/Wire-protocol-user-agent)
 
 ## Offline transaction signing
 
@@ -798,7 +798,7 @@ Follow the [Tor Project's instructions for verifying signatures](https://www.tor
 
 If you can't or don't want to import the keys from a keyserver, the signing key is available in the repo: [iketheadore.asc](iketheadore.asc).
 
-Releases and their signatures can be found on the [releases page](https://github.com/skycoin/skycoin/releases).
+Releases and their signatures can be found on the [releases page](https://github.com/ness-network/privateness/releases).
 
 Instructions for generating a PGP key, publishing it, signing the tags and binaries:
 https://gist.github.com/iketheadore/6485585ce2d22231c2cb3cbc77e1d7b7

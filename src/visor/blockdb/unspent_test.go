@@ -14,11 +14,11 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/encoder"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/encoder"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/visor/dbutil"
 )
 
 func makeUxBody(t *testing.T) coin.UxBody {

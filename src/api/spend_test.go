@@ -13,14 +13,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/transaction"
-	"github.com/skycoin/skycoin/src/util/fee"
-	"github.com/skycoin/skycoin/src/visor"
-	"github.com/skycoin/skycoin/src/visor/blockdb"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/transaction"
+	"github.com/ness-network/privateness/src/util/fee"
+	"github.com/ness-network/privateness/src/visor"
+	"github.com/ness-network/privateness/src/visor/blockdb"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 type rawHoursSelection struct {

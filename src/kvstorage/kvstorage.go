@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/skycoin/skycoin/src/util/file"
+	"github.com/ness-network/privateness/src/util/file"
 )
 
 var (

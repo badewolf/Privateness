@@ -2,7 +2,7 @@
 
 Skycoin command line interface
 
-The CLI command APIs can be used directly from a Go application, see [Skycoin CLI Godoc](https://godoc.org/github.com/skycoin/skycoin/src/cli).
+The CLI command APIs can be used directly from a Go application, see [Skycoin CLI Godoc](https://godoc.org/github.com/ness-network/privateness/src/cli).
 
 <!-- MarkdownTOC autolink="true" bracket="round" levels="1,2,3" -->
 
@@ -57,7 +57,7 @@ The CLI command APIs can be used directly from a Go application, see [Skycoin CL
 ## Install
 
 ```bash
-$ cd $GOPATH/src/github.com/skycoin/skycoin/cmd/skycoin-cli
+$ cd $GOPATH/src/github.com/ness-network/privateness/cmd/skycoin-cli
 $ go install ./...
 ```
 
@@ -1037,7 +1037,7 @@ FLAGS:
 #### Examples
 ##### Create a deterministic wallet
 
-Creates a deterministic wallet using the [Skycoin deterministic address generator](https://github.com/skycoin/skycoin/wiki/Deterministic-Keypair-Generation-Method).
+Creates a deterministic wallet using the [Skycoin deterministic address generator](https://github.com/ness-network/privateness/wiki/Deterministic-Keypair-Generation-Method).
 Alternatively, you can create a `bip44` type wallet.
 
 ```bash
@@ -2179,12 +2179,12 @@ $ skycoin-cli status
         "started_at": 1558864387,
         "fiber": {
             "name": "skycoin",
-            "display_name": "Skycoin",
-            "ticker": "SKY",
+            "display_name": "Privateness",
+            "ticker": "NESS",
             "coin_hours_display_name": "Coin Hours",
             "coin_hours_display_name_singular": "Coin Hour",
-            "coin_hours_ticker": "SCH",
-            "explorer_url": "https://explorer.skycoin.com"
+            "coin_hours_ticker": "NCH",
+            "explorer_url": "https://explorer.privateness.network"
         }
     },
     "cli_config": {

@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/crypto"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/transaction"
-	"github.com/skycoin/skycoin/src/visor/blockdb"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
-	"github.com/skycoin/skycoin/src/wallet"
-	"github.com/skycoin/skycoin/src/wallet/collection"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/crypto"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/transaction"
+	"github.com/ness-network/privateness/src/visor/blockdb"
+	"github.com/ness-network/privateness/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/wallet"
+	"github.com/ness-network/privateness/src/wallet/collection"
 )
 
 func TestCreateTransaction(t *testing.T) {

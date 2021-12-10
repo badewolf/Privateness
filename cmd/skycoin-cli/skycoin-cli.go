@@ -9,14 +9,14 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/skycoin/skycoin/src/cli"
-	"github.com/skycoin/skycoin/src/util/logging"
+	"github.com/ness-network/privateness/src/cli"
+	"github.com/ness-network/privateness/src/util/logging"
 
 	// register the supported wallets
-	_ "github.com/skycoin/skycoin/src/wallet/bip44wallet"
-	_ "github.com/skycoin/skycoin/src/wallet/collection"
-	_ "github.com/skycoin/skycoin/src/wallet/deterministic"
-	_ "github.com/skycoin/skycoin/src/wallet/xpubwallet"
+	_ "github.com/ness-network/privateness/src/wallet/bip44wallet"
+	_ "github.com/ness-network/privateness/src/wallet/collection"
+	_ "github.com/ness-network/privateness/src/wallet/deterministic"
+	_ "github.com/ness-network/privateness/src/wallet/xpubwallet"
 )
 
 func main() {

@@ -5,14 +5,14 @@ package visor
 import (
 	"errors"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/transaction"
-	"github.com/skycoin/skycoin/src/util/mathutil"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
-	"github.com/skycoin/skycoin/src/wallet"
-	"github.com/skycoin/skycoin/src/wallet/bip44wallet"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/transaction"
+	"github.com/ness-network/privateness/src/util/mathutil"
+	"github.com/ness-network/privateness/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/wallet"
+	"github.com/ness-network/privateness/src/wallet/bip44wallet"
 )
 
 // UserError wraps user input-related errors.

@@ -1,9 +1,9 @@
 package readable
 
 import (
-	"github.com/skycoin/skycoin/src/daemon"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/util/useragent"
+	"github.com/ness-network/privateness/src/daemon"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/util/useragent"
 )
 
 // Connection a connection's state within the daemon

@@ -11,7 +11,7 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	logging "github.com/skycoin/skycoin/src/util/logging"
+	logging "github.com/ness-network/privateness/src/util/logging"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/skycoin/skycoin/src/cipher/bip44"
-	"github.com/skycoin/skycoin/src/cipher/crypto"
+	"github.com/ness-network/privateness/src/cipher/bip44"
+	"github.com/ness-network/privateness/src/cipher/crypto"
 )
 
 // wallet meta fields

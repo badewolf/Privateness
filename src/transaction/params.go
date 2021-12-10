@@ -5,8 +5,8 @@ import (
 
 	"github.com/shopspring/decimal"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
 )
 
 // Error wraps transaction creation-related errors.

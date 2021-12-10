@@ -11,11 +11,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/encoder"
-	"github.com/skycoin/skycoin/src/testutil"
-	_require "github.com/skycoin/skycoin/src/testutil/require"
-	"github.com/skycoin/skycoin/src/util/mathutil"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/encoder"
+	"github.com/ness-network/privateness/src/testutil"
+	_require "github.com/ness-network/privateness/src/testutil/require"
+	"github.com/ness-network/privateness/src/util/mathutil"
 )
 
 func makeTransactionFromUxOuts(t *testing.T, uxs []UxOut, secs []cipher.SecKey) Transaction {

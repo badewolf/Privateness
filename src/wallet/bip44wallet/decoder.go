@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/bip32"
-	"github.com/skycoin/skycoin/src/cipher/bip44"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/bip32"
+	"github.com/ness-network/privateness/src/cipher/bip44"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 const metaAccountsHash = "metaAccountsHash"

@@ -9,7 +9,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher/ripemd160"
+	"github.com/ness-network/privateness/src/cipher/ripemd160"
 )
 
 func TestNewPubKey(t *testing.T) {

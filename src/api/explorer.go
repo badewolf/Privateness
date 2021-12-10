@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/readable"
-	"github.com/skycoin/skycoin/src/util/droplet"
-	wh "github.com/skycoin/skycoin/src/util/http"
-	"github.com/skycoin/skycoin/src/util/mathutil"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/readable"
+	"github.com/ness-network/privateness/src/util/droplet"
+	wh "github.com/ness-network/privateness/src/util/http"
+	"github.com/ness-network/privateness/src/util/mathutil"
 )
 
 // CoinSupply records the coin supply info

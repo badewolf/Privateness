@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/util/logging"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/util/logging"
+	"github.com/ness-network/privateness/src/visor/dbutil"
 )
 
 var (
@@ -20,8 +20,8 @@ var (
 	ErrNoHeadBlock = fmt.Errorf("found no head block")
 )
 
-//go:generate skyencoder -unexported -struct Block -output-path . -package blockdb github.com/skycoin/skycoin/src/coin
-//go:generate skyencoder -unexported -struct UxOut -output-path . -package blockdb github.com/skycoin/skycoin/src/coin
+//go:generate skyencoder -unexported -struct Block -output-path . -package blockdb github.com/ness-network/privateness/src/coin
+//go:generate skyencoder -unexported -struct UxOut -output-path . -package blockdb github.com/ness-network/privateness/src/coin
 //go:generate skyencoder -unexported -struct hashPairsWrapper
 //go:generate skyencoder -unexported -struct hashesWrapper
 //go:generate skyencoder -unexported -struct sigWrapper

@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/skycoin/skycoin/src/cipher/bip39"
+	"github.com/ness-network/privateness/src/cipher/bip39"
 	"github.com/stretchr/testify/require"
 )
 

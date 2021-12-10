@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/readable"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/readable"
 )
 
 func walletOutputsCmd() *cobra.Command {

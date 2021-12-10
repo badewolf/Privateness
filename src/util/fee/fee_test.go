@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/testutil"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/testutil"
 )
 
 type verifyTxnFeeTestCase struct {

@@ -8,7 +8,7 @@ import (
 	"encoding/hex"
 	"log"
 
-	secp "github.com/skycoin/skycoin/src/cipher/secp256k1-go/secp256k1-go2"
+	secp "github.com/ness-network/privateness/src/cipher/secp256k1-go/secp256k1-go2"
 )
 
 // DebugPrint enable debug print statements

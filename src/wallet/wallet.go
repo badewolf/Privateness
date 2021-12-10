@@ -7,7 +7,7 @@ or by loading from `[]byte` that containing wallet data of type such as
 type of wallet requires the prior registration of a loader. Registration is typically
 automatic as a side effect of initializing that wallet's package so that, to load a
 "deterministic" wallet, it suffices to have
-	import _ "github.com/skycoin/skycoin/src/wallet/deterministic"
+	import _ "github.com/ness-network/privateness/src/wallet/deterministic"
 in a program's main package. The _ means to import a package purely for its
 initialization side effects.
 */
@@ -24,11 +24,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/bip44"
-	"github.com/skycoin/skycoin/src/cipher/crypto"
-	"github.com/skycoin/skycoin/src/util/file"
-	"github.com/skycoin/skycoin/src/util/logging"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/bip44"
+	"github.com/ness-network/privateness/src/cipher/crypto"
+	"github.com/ness-network/privateness/src/util/file"
+	"github.com/ness-network/privateness/src/util/logging"
 )
 
 // Error wraps wallet-related errors.

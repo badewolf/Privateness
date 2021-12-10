@@ -10,9 +10,9 @@ import (
 	mathrand "math/rand"
 
 	//
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/secp256k1-go"
-	"github.com/skycoin/skycoin/src/consensus"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/secp256k1-go"
+	"github.com/ness-network/privateness/src/consensus"
 )
 
 var Cfg_simu_num_node int = 5

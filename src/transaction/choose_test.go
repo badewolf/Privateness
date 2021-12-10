@@ -9,9 +9,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/util/fee"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/util/fee"
 )
 
 func TestSortSpendsCoinsLowToHigh(t *testing.T) {

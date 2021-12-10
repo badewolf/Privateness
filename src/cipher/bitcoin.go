@@ -5,7 +5,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/skycoin/skycoin/src/cipher/base58"
+	"github.com/ness-network/privateness/src/cipher/base58"
 )
 
 var (

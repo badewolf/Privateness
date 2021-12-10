@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/daemon"
-	"github.com/skycoin/skycoin/src/daemon/pex"
-	"github.com/skycoin/skycoin/src/readable"
-	"github.com/skycoin/skycoin/src/util/useragent"
+	"github.com/ness-network/privateness/src/daemon"
+	"github.com/ness-network/privateness/src/daemon/pex"
+	"github.com/ness-network/privateness/src/readable"
+	"github.com/ness-network/privateness/src/util/useragent"
 )
 
 func TestConnection(t *testing.T) {

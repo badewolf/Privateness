@@ -24,8 +24,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/skycoin/skycoin/src/cipher/ripemd160"
-	secp256k1 "github.com/skycoin/skycoin/src/cipher/secp256k1-go"
+	"github.com/ness-network/privateness/src/cipher/ripemd160"
+	secp256k1 "github.com/ness-network/privateness/src/cipher/secp256k1-go"
 )
 
 var (

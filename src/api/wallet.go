@@ -10,12 +10,12 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/bip39"
-	"github.com/skycoin/skycoin/src/cipher/bip44"
-	"github.com/skycoin/skycoin/src/readable"
-	wh "github.com/skycoin/skycoin/src/util/http"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/bip39"
+	"github.com/ness-network/privateness/src/cipher/bip44"
+	"github.com/ness-network/privateness/src/readable"
+	wh "github.com/ness-network/privateness/src/util/http"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 // UnconfirmedTxnsResponse contains unconfirmed transaction data

@@ -21,7 +21,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/skycoin/skycoin/src/util/logging"
+	"github.com/ness-network/privateness/src/util/logging"
 )
 
 var logger = logging.MustGetLogger("certutil")

@@ -8,10 +8,10 @@ import (
 	"github.com/boltdb/bolt"
 	"github.com/spf13/cobra"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/util/apputil"
-	"github.com/skycoin/skycoin/src/visor"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/util/apputil"
+	"github.com/ness-network/privateness/src/visor"
+	"github.com/ness-network/privateness/src/visor/dbutil"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/ness-network/privateness/src/cipher"
 )
 
 // RichlistBalance holds info an address balance holder

@@ -1,7 +1,7 @@
 package cli
 
 import (
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/wallet"
 	"github.com/spf13/cobra"
 )
 

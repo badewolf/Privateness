@@ -3,7 +3,7 @@ package cli
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 func encryptWalletCmd() *cobra.Command {

@@ -14,8 +14,8 @@ import (
 
 	"github.com/boltdb/bolt"
 
-	"github.com/skycoin/skycoin/src/cipher/encoder"
-	"github.com/skycoin/skycoin/src/util/logging"
+	"github.com/ness-network/privateness/src/cipher/encoder"
+	"github.com/ness-network/privateness/src/util/logging"
 )
 
 var (

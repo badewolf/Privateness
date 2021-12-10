@@ -13,7 +13,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/skycoin/encodertest"
-	"github.com/skycoin/skycoin/src/cipher/encoder"
+	"github.com/ness-network/privateness/src/cipher/encoder"
 )
 
 func newEmptyUnconfirmedTransactionForEncodeTest() *UnconfirmedTransaction {

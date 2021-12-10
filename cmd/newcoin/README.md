@@ -8,7 +8,7 @@ This tool can be used to create a new fiber coin easily from a config file.
 ## Install
 
 ```bash
-$ cd $GOPATH/src/github.com/skycoin/skycoin/cmd/newcoin
+$ cd $GOPATH/src/github.com/ness-network/privateness/cmd/newcoin
 $ go install ./...
 ```
 
@@ -64,6 +64,6 @@ $ newcoin createcoin --coin testcoin
 ```
 
 This will create a new directory, `testcoin`, in `cmd` folder and a `testcoin.go` file inside that folder.
-It will also use the built-in defaul options (specified above) and draw template configuration from `$GOPATH/src/github.com/skycoin/skycoin/template`
+It will also use the built-in defaul options (specified above) and draw template configuration from `$GOPATH/src/github.com/ness-network/privateness/template`
 
 This file can be used to run a "testcoin" node.

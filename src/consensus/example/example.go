@@ -21,8 +21,8 @@ import (
 	"sort"
 
 	//
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/consensus"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/consensus"
 )
 
 var Cfg_print_config bool = true

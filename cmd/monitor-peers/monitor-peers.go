@@ -21,11 +21,11 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/skycoin/skycoin/cmd/monitor-peers/connection"
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/daemon"
-	"github.com/skycoin/skycoin/src/daemon/pex"
-	"github.com/skycoin/skycoin/src/util/logging"
+	"github.com/ness-network/privateness/cmd/monitor-peers/connection"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/daemon"
+	"github.com/ness-network/privateness/src/daemon/pex"
+	"github.com/ness-network/privateness/src/util/logging"
 )
 
 // PeerState is a current state of the peer

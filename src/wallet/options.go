@@ -1,9 +1,9 @@
 package wallet
 
 import (
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/bip44"
-	"github.com/skycoin/skycoin/src/cipher/crypto"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/bip44"
+	"github.com/ness-network/privateness/src/cipher/crypto"
 )
 
 // ChainMode represents the bip44 chain mode. AllChains =  ExternalChain | ChangeChain

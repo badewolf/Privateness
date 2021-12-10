@@ -7,9 +7,9 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/skycoin/skycoin/src/cipher/ripemd160"
-	secp256k1 "github.com/skycoin/skycoin/src/cipher/secp256k1-go"
-	secp256k1go "github.com/skycoin/skycoin/src/cipher/secp256k1-go/secp256k1-go2"
+	"github.com/ness-network/privateness/src/cipher/ripemd160"
+	secp256k1 "github.com/ness-network/privateness/src/cipher/secp256k1-go"
+	secp256k1go "github.com/ness-network/privateness/src/cipher/secp256k1-go/secp256k1-go2"
 )
 
 //

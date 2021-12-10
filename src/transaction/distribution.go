@@ -1,8 +1,8 @@
 package transaction
 
 import (
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/params"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/params"
 )
 
 // TransactionIsLocked returns true if the transaction spends locked outputs

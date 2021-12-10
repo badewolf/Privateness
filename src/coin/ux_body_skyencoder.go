@@ -2,7 +2,7 @@
 
 package coin
 
-import "github.com/skycoin/skycoin/src/cipher/encoder"
+import "github.com/ness-network/privateness/src/cipher/encoder"
 
 // encodeSizeUxBody computes the size of an encoded object of type UxBody
 func encodeSizeUxBody(obj *UxBody) uint64 {

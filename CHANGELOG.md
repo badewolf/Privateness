@@ -39,7 +39,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   Therefore, it will be moved to `src/cipher/crypto`.
 - GUI get the uri prefix from the api
 - GUI update electron and electron builder.
-- GUI General improvements for the front-end, see details in [#2589](https://github.com/skycoin/skycoin/pull/2589)
+- GUI General improvements for the front-end, see details in [#2589](https://github.com/ness-network/privateness/pull/2589)
 - GUI exchange page has been disabled, because the Swaplab integration is not working. The code was not removed
 - CLI command `listWallets` removed the argument of `[directory]`, it is not being used at all.
 - API change `POST /api/v1/wallet/encrypt` to encrypt wallet that has no 'cryptoType' field with the default crypto type.
@@ -88,7 +88,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   Affects APIs are `POST /api/v1/wallet`, `GET /api/v1/wallets`, `GET /api/v1/wallet`, `POST /api/v1/wallet/seed` and `POST /api/v1/wallet/recover`.
   Refer to the [API documentation](./src/api/README.md) for API changes.
   `bip44` wallets support bip39 "seed passphrases".
-  More details are explained in https://github.com/skycoin/skycoin/wiki/Wallet-File-Formats-and-Types
+  More details are explained in https://github.com/ness-network/privateness/wiki/Wallet-File-Formats-and-Types
 - `cli walletCreate` support for `bip44` wallets added
 - Add `bip44_coin` field to `GET /api/v1/health` `fiber` params
 - Add the "bulk send" option to the GUI advanced form
@@ -163,17 +163,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Clients restrict the maximum number of blocks they will send in a `GiveBlocksMessage` to 20
 - `POST /api/v2/wallet/seed/verify` returns an error if the seed's checksum is invalid
 - Increase the detail of error messages for invalid seeds sent to `POST /api/v2/wallet/seed/verify`
-- Move package `github.com/skycoin/skycoin/src/cipher/go-bip39` to `github.com/skycoin/skycoin/src/cipher/bip39`
+- Move package `github.com/ness-network/privateness/src/cipher/go-bip39` to `github.com/ness-network/privateness/src/cipher/bip39`
 - The `Content-Security-Policy` header was modified to make it stricter
 - Update `INTR` message verify logic to reject connection if blockchain pubkey not matched or provided
 - Change the coinhour burn rate to 10%
 
 ### Removed
 
-- `/api/v1/explorer/address` endpoint (use `GET /api/v1/transactions?verbose=1` instead). See https://github.com/skycoin/skycoin/blob/develop/src/api/README.md#migrating-from--api-v1-explorer-address
-- The unversioned REST API (the `-enable-unversioned-api` is removed, prefix your API requests with `/api/v1` if they don't have an `/api/vx` prefix already). See https://github.com/skycoin/skycoin/blob/develop/src/api/README.md#migrating-from-the-unversioned-api
-- JSON-RPC 2.0 interface (this is no longer used by the CLI tool, and the REST API supports everything the JSON-RPC 2.0 API does). See https://github.com/skycoin/skycoin/blob/develop/src/api/README.md#migrating-from-the-jsonrpc-api
-- `/api/v1/wallet/spend` endpoint (use `POST /api/v1/wallet/transaction` followed by `POST /api/v1/injectTransaction` instead). See https://github.com/skycoin/skycoin/blob/develop/src/api/README.md#migrating-from--api-v1-spend
+- `/api/v1/explorer/address` endpoint (use `GET /api/v1/transactions?verbose=1` instead). See https://github.com/ness-network/privateness/blob/develop/src/api/README.md#migrating-from--api-v1-explorer-address
+- The unversioned REST API (the `-enable-unversioned-api` is removed, prefix your API requests with `/api/v1` if they don't have an `/api/vx` prefix already). See https://github.com/ness-network/privateness/blob/develop/src/api/README.md#migrating-from-the-unversioned-api
+- JSON-RPC 2.0 interface (this is no longer used by the CLI tool, and the REST API supports everything the JSON-RPC 2.0 API does). See https://github.com/ness-network/privateness/blob/develop/src/api/README.md#migrating-from-the-jsonrpc-api
+- `/api/v1/wallet/spend` endpoint (use `POST /api/v1/wallet/transaction` followed by `POST /api/v1/injectTransaction` instead). See https://github.com/ness-network/privateness/blob/develop/src/api/README.md#migrating-from--api-v1-spend
 - Remove shell autocomplete files
 
 ## [0.25.1] - 2019-02-08
@@ -208,10 +208,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 In the v0.26.0 these features and functions will be removed.  If you have a need for any of these features, let us know.
 
-- JSON-RPC 2.0 interface (this is no longer used by the CLI tool, and the REST API supports everything the JSON-RPC 2.0 API does). See https://github.com/skycoin/skycoin/blob/develop/src/api/README.md#migrating-from-the-jsonrpc-api
-- `/api/v1/wallet/spend` endpoint (use `POST /api/v1/wallet/transaction` followed by `POST /api/v1/injectTransaction` instead). See https://github.com/skycoin/skycoin/blob/develop/src/api/README.md#migrating-from--api-v1-spend
-- The unversioned REST API (the `-enable-unversioned-api` option will be removed, prefix your API requests with `/api/v1`). See https://github.com/skycoin/skycoin/blob/develop/src/api/README.md#migrating-from-the-unversioned-api
-- `/api/v1/explorer/address` endpoint (use `GET /api/v1/transactions?verbose=1` instead). See https://github.com/skycoin/skycoin/blob/develop/src/api/README.md#migrating-from--api-v1-explorer-address
+- JSON-RPC 2.0 interface (this is no longer used by the CLI tool, and the REST API supports everything the JSON-RPC 2.0 API does). See https://github.com/ness-network/privateness/blob/develop/src/api/README.md#migrating-from-the-jsonrpc-api
+- `/api/v1/wallet/spend` endpoint (use `POST /api/v1/wallet/transaction` followed by `POST /api/v1/injectTransaction` instead). See https://github.com/ness-network/privateness/blob/develop/src/api/README.md#migrating-from--api-v1-spend
+- The unversioned REST API (the `-enable-unversioned-api` option will be removed, prefix your API requests with `/api/v1`). See https://github.com/ness-network/privateness/blob/develop/src/api/README.md#migrating-from-the-unversioned-api
+- `/api/v1/explorer/address` endpoint (use `GET /api/v1/transactions?verbose=1` instead). See https://github.com/ness-network/privateness/blob/develop/src/api/README.md#migrating-from--api-v1-explorer-address
 
 ### Notice
 
@@ -244,8 +244,8 @@ Make sure to upgrade to v0.25.0 so that your node will continue to connect once 
 - Coinhour burn factor when creating transactions can be configured at runtime with `USER_BURN_FACTOR` envvar
 - Max transaction size when creating transactions can be configured at runtime with `USER_MAX_TXN_SIZE` envvar
 - Max decimals allowed when creating transactions can be configured at runtime with `USER_MAX_DECIMALS` envvar
-- Daemon configured builds will be available on the [releases](https://github.com/skycoin/skycoin/releases) page. The builds available for previous versions are configured for desktop client use.
-- `skycoin-cli` builds will be available on the [releases](https://github.com/skycoin/skycoin/releases) page.
+- Daemon configured builds will be available on the [releases](https://github.com/ness-network/privateness/releases) page. The builds available for previous versions are configured for desktop client use.
+- `skycoin-cli` builds will be available on the [releases](https://github.com/ness-network/privateness/releases) page.
 - A user agent string is sent in the wire protocol's introduction packet
 - `-max-connections` option to control total max connections
 - `/api/v1/network/disconnect` to disconnect a peer
@@ -622,20 +622,20 @@ Make sure to upgrade to v0.25.0 so that your node will continue to connect once 
 - #360 Node will crash when do ctrl+c while downloading blocks
 - #350 Wallet name always 'undefined' after loading wallet from seed
 
-[Unreleased]: https://github.com/skycoin/skycoin/compare/master...develop
-[0.26.0]: https://github.com/skycoin/skycoin/compare/v0.25.1...v0.26.0
-[0.25.1]: https://github.com/skycoin/skycoin/compare/v0.25.0...v0.25.1
-[0.25.0]: https://github.com/skycoin/skycoin/compare/v0.24.1...v0.25.0
-[0.24.1]: https://github.com/skycoin/skycoin/compare/v0.24.0...v0.24.1
-[0.24.0]: https://github.com/skycoin/skycoin/compare/v0.23.0...v0.24.0
-[0.23.0]: https://github.com/skycoin/skycoin/compare/v0.22.0...v0.23.0
-[0.22.0]: https://github.com/skycoin/skycoin/compare/v0.21.1...v0.22.0
-[0.21.1]: https://github.com/skycoin/skycoin/compare/v0.21.0...v0.21.1
-[0.21.0]: https://github.com/skycoin/skycoin/compare/v0.20.4...v0.21.0
-[0.20.4]: https://github.com/skycoin/skycoin/compare/v0.20.3...v0.20.4
-[0.20.3]: https://github.com/skycoin/skycoin/compare/v0.20.2...v0.20.3
-[0.20.2]: https://github.com/skycoin/skycoin/compare/v0.20.1...v0.20.2
-[0.20.1]: https://github.com/skycoin/skycoin/compare/v0.20.0...v0.20.1
-[0.20.0]: https://github.com/skycoin/skycoin/compare/v0.19.1...v0.20.0
-[0.19.1]: https://github.com/skycoin/skycoin/compare/v0.19.0...v0.19.1
-[0.19.0]: https://github.com/skycoin/skycoin/commit/dd924e1f2de8fab945e05b3245dbeabf267f2910
+[Unreleased]: https://github.com/ness-network/privateness/compare/master...develop
+[0.26.0]: https://github.com/ness-network/privateness/compare/v0.25.1...v0.26.0
+[0.25.1]: https://github.com/ness-network/privateness/compare/v0.25.0...v0.25.1
+[0.25.0]: https://github.com/ness-network/privateness/compare/v0.24.1...v0.25.0
+[0.24.1]: https://github.com/ness-network/privateness/compare/v0.24.0...v0.24.1
+[0.24.0]: https://github.com/ness-network/privateness/compare/v0.23.0...v0.24.0
+[0.23.0]: https://github.com/ness-network/privateness/compare/v0.22.0...v0.23.0
+[0.22.0]: https://github.com/ness-network/privateness/compare/v0.21.1...v0.22.0
+[0.21.1]: https://github.com/ness-network/privateness/compare/v0.21.0...v0.21.1
+[0.21.0]: https://github.com/ness-network/privateness/compare/v0.20.4...v0.21.0
+[0.20.4]: https://github.com/ness-network/privateness/compare/v0.20.3...v0.20.4
+[0.20.3]: https://github.com/ness-network/privateness/compare/v0.20.2...v0.20.3
+[0.20.2]: https://github.com/ness-network/privateness/compare/v0.20.1...v0.20.2
+[0.20.1]: https://github.com/ness-network/privateness/compare/v0.20.0...v0.20.1
+[0.20.0]: https://github.com/ness-network/privateness/compare/v0.19.1...v0.20.0
+[0.19.1]: https://github.com/ness-network/privateness/compare/v0.19.0...v0.19.1
+[0.19.0]: https://github.com/ness-network/privateness/commit/dd924e1f2de8fab945e05b3245dbeabf267f2910

@@ -3,7 +3,7 @@ package params
 import (
 	"errors"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/ness-network/privateness/src/cipher"
 )
 
 // Distribution parameters define the initial coin distribution and unlocking schedule

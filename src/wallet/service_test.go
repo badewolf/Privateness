@@ -11,17 +11,17 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/skycoin/skycoin/src/cipher/bip39"
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/wallet/bip44wallet"
-	"github.com/skycoin/skycoin/src/wallet/collection"
-	_ "github.com/skycoin/skycoin/src/wallet/deterministic"
-	_ "github.com/skycoin/skycoin/src/wallet/xpubwallet"
+	"github.com/ness-network/privateness/src/cipher/bip39"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/wallet/bip44wallet"
+	"github.com/ness-network/privateness/src/wallet/collection"
+	_ "github.com/ness-network/privateness/src/wallet/deterministic"
+	_ "github.com/ness-network/privateness/src/wallet/xpubwallet"
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/crypto"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/crypto"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 func prepareWltDir() string {

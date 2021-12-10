@@ -232,11 +232,11 @@ merge-coverage: ## Merge coverage files and create HTML coverage output. gocovme
 	@echo "Open coverage/all-coverage.html in your browser to view"
 
 fuzz-base58: ## Fuzz the base58 package. Requires https://github.com/dvyukov/go-fuzz
-	go-fuzz-build github.com/skycoin/skycoin/src/cipher/base58/internal
+	go-fuzz-build github.com/ness-network/privateness/src/cipher/base58/internal
 	go-fuzz -bin=base58fuzz-fuzz.zip -workdir=src/cipher/base58/internal
 
 fuzz-encoder: ## Fuzz the encoder package. Requires https://github.com/dvyukov/go-fuzz
-	go-fuzz-build github.com/skycoin/skycoin/src/cipher/encoder/internal
+	go-fuzz-build github.com/ness-network/privateness/src/cipher/encoder/internal
 	go-fuzz -bin=encoderfuzz-fuzz.zip -workdir=src/cipher/encoder/internal
 
 help:

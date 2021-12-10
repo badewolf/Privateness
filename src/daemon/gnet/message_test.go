@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/cipher/encoder"
+	"github.com/ness-network/privateness/src/cipher/encoder"
 )
 
 func TestNewMessageContext(t *testing.T) {

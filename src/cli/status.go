@@ -3,7 +3,7 @@ package cli
 import (
 	cobra "github.com/spf13/cobra"
 
-	"github.com/skycoin/skycoin/src/api"
+	"github.com/ness-network/privateness/src/api"
 )
 
 // StatusResult is printed by cli status command

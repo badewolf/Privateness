@@ -7,10 +7,10 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/util/timeutil"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
-	"github.com/skycoin/skycoin/src/visor/historydb"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/util/timeutil"
+	"github.com/ness-network/privateness/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/visor/historydb"
 )
 
 const (

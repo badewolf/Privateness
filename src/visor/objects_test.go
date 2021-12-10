@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/transaction"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/transaction"
 )
 
 func TestNewTransactionInputsFromUxBalance(t *testing.T) {

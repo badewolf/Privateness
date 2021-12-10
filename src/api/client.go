@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/skycoin/skycoin/src/cipher/bip44"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/daemon"
-	"github.com/skycoin/skycoin/src/kvstorage"
-	"github.com/skycoin/skycoin/src/readable"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/cipher/bip44"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/daemon"
+	"github.com/ness-network/privateness/src/kvstorage"
+	"github.com/ness-network/privateness/src/readable"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 const (

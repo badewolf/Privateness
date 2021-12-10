@@ -14,20 +14,20 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/skycoin/skycoin/src/transaction"
+	"github.com/ness-network/privateness/src/transaction"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/daemon/gnet"
-	"github.com/skycoin/skycoin/src/daemon/pex"
-	"github.com/skycoin/skycoin/src/params"
-	"github.com/skycoin/skycoin/src/util/elapse"
-	"github.com/skycoin/skycoin/src/util/fee"
-	"github.com/skycoin/skycoin/src/util/iputil"
-	"github.com/skycoin/skycoin/src/util/logging"
-	"github.com/skycoin/skycoin/src/util/useragent"
-	"github.com/skycoin/skycoin/src/visor"
-	"github.com/skycoin/skycoin/src/visor/dbutil"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/daemon/gnet"
+	"github.com/ness-network/privateness/src/daemon/pex"
+	"github.com/ness-network/privateness/src/params"
+	"github.com/ness-network/privateness/src/util/elapse"
+	"github.com/ness-network/privateness/src/util/fee"
+	"github.com/ness-network/privateness/src/util/iputil"
+	"github.com/ness-network/privateness/src/util/logging"
+	"github.com/ness-network/privateness/src/util/useragent"
+	"github.com/ness-network/privateness/src/visor"
+	"github.com/ness-network/privateness/src/visor/dbutil"
 )
 
 var (

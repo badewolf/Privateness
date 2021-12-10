@@ -25,23 +25,23 @@ import (
 	"github.com/andreyvit/diff"
 	"github.com/stretchr/testify/require"
 
-	"github.com/skycoin/skycoin/src/api"
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/cipher/bip39"
-	"github.com/skycoin/skycoin/src/cipher/crypto"
-	"github.com/skycoin/skycoin/src/cli"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/readable"
-	"github.com/skycoin/skycoin/src/testutil"
-	"github.com/skycoin/skycoin/src/util/droplet"
-	wh "github.com/skycoin/skycoin/src/util/http"
-	"github.com/skycoin/skycoin/src/wallet"
-	"github.com/skycoin/skycoin/src/wallet/deterministic"
+	"github.com/ness-network/privateness/src/api"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/cipher/bip39"
+	"github.com/ness-network/privateness/src/cipher/crypto"
+	"github.com/ness-network/privateness/src/cli"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/readable"
+	"github.com/ness-network/privateness/src/testutil"
+	"github.com/ness-network/privateness/src/util/droplet"
+	wh "github.com/ness-network/privateness/src/util/http"
+	"github.com/ness-network/privateness/src/wallet"
+	"github.com/ness-network/privateness/src/wallet/deterministic"
 
 	// register wallets
-	_ "github.com/skycoin/skycoin/src/wallet/bip44wallet"
-	_ "github.com/skycoin/skycoin/src/wallet/collection"
-	_ "github.com/skycoin/skycoin/src/wallet/xpubwallet"
+	_ "github.com/ness-network/privateness/src/wallet/bip44wallet"
+	_ "github.com/ness-network/privateness/src/wallet/collection"
+	_ "github.com/ness-network/privateness/src/wallet/xpubwallet"
 )
 
 const (
@@ -67,7 +67,7 @@ var (
 	cryptoTypes = []crypto.CryptoType{crypto.CryptoTypeScryptChacha20poly1305, crypto.CryptoTypeSha256Xor}
 
 	validNameRegexp     = regexp.MustCompile(`^[a-zA-Z0-9_\-]+$`)
-	stripCoverageReport = regexp.MustCompile(`PASS\ncoverage: [\d\.]+% of statements in github.com/skycoin/skycoin/\.\.\.\n$`)
+	stripCoverageReport = regexp.MustCompile(`PASS\ncoverage: [\d\.]+% of statements in github.com/ness-network/privateness/\.\.\.\n$`)
 )
 
 type TestData struct {
@@ -156,7 +156,7 @@ func execCommandCombinedOutput(args ...string) ([]byte, error) {
 	}
 	// Remove the trailing coverage statements that the test cli binary produces due to coverage mode, e.g.
 	// PASS
-	// coverage: 8.1% of statements in github.com/skycoin/skycoin/...
+	// coverage: 8.1% of statements in github.com/ness-network/privateness/...
 	output = stripCoverageReport.ReplaceAll(output, nil)
 	return output, nil
 }
@@ -178,7 +178,7 @@ func TestMain(m *testing.M) {
 	// Args to build the cli binary without coverage:
 	// args := []string{"build", "-o", binaryPath, "../../../cmd/skycoin-cli/skycoin-cli.go"}
 	// Compile the binary with test flags enabled to get a coverage report from the binary
-	args := []string{"test", "-c", "-tags", "testrunmain", "-o", binaryPath, "-coverpkg=github.com/skycoin/skycoin/...", "../../../cmd/skycoin-cli/"}
+	args := []string{"test", "-c", "-tags", "testrunmain", "-o", binaryPath, "-coverpkg=github.com/ness-network/privateness/...", "../../../cmd/skycoin-cli/"}
 	if err := exec.Command("go", args...).Run(); err != nil {
 		fmt.Fprintf(os.Stderr, "Make %v binary failed: %v\n", binaryName, err)
 		os.Exit(1)

@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/skycoin/skycoin/src/daemon"
-	"github.com/skycoin/skycoin/src/readable"
-	wh "github.com/skycoin/skycoin/src/util/http"
+	"github.com/ness-network/privateness/src/daemon"
+	"github.com/ness-network/privateness/src/readable"
+	wh "github.com/ness-network/privateness/src/util/http"
 )
 
 // connectionHandler returns a specific connection

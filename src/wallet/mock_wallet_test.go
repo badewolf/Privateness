@@ -3,10 +3,10 @@
 package wallet
 
 import (
-	cipher "github.com/skycoin/skycoin/src/cipher"
-	bip44 "github.com/skycoin/skycoin/src/cipher/bip44"
+	cipher "github.com/ness-network/privateness/src/cipher"
+	bip44 "github.com/ness-network/privateness/src/cipher/bip44"
 
-	crypto "github.com/skycoin/skycoin/src/cipher/crypto"
+	crypto "github.com/ness-network/privateness/src/cipher/crypto"
 
 	mock "github.com/stretchr/testify/mock"
 )

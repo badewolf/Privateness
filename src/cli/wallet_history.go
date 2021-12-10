@@ -10,9 +10,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/skycoin/skycoin/src/api"
-	"github.com/skycoin/skycoin/src/readable"
-	"github.com/skycoin/skycoin/src/util/droplet"
+	"github.com/ness-network/privateness/src/api"
+	"github.com/ness-network/privateness/src/readable"
+	"github.com/ness-network/privateness/src/util/droplet"
 )
 
 // AddrHistory represents a transactional event for an address

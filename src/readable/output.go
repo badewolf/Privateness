@@ -6,14 +6,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/skycoin/skycoin/src/cipher"
-	"github.com/skycoin/skycoin/src/coin"
-	"github.com/skycoin/skycoin/src/transaction"
-	"github.com/skycoin/skycoin/src/util/droplet"
-	"github.com/skycoin/skycoin/src/util/mathutil"
-	"github.com/skycoin/skycoin/src/visor"
-	"github.com/skycoin/skycoin/src/visor/historydb"
-	"github.com/skycoin/skycoin/src/wallet"
+	"github.com/ness-network/privateness/src/cipher"
+	"github.com/ness-network/privateness/src/coin"
+	"github.com/ness-network/privateness/src/transaction"
+	"github.com/ness-network/privateness/src/util/droplet"
+	"github.com/ness-network/privateness/src/util/mathutil"
+	"github.com/ness-network/privateness/src/visor"
+	"github.com/ness-network/privateness/src/visor/historydb"
+	"github.com/ness-network/privateness/src/wallet"
 )
 
 // UnspentOutput represents a readable output

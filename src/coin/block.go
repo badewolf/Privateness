@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/skycoin/skycoin/src/cipher"
+	"github.com/ness-network/privateness/src/cipher"
 )
 
 //go:generate skyencoder -struct BlockHeader -unexported
