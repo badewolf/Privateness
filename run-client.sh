@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Runs skycoin in desktop client configuration
+# Runs prinateness in desktop client configuration
 
 set -x
 
@@ -14,7 +14,7 @@ GOLDFLAGS="${GOLDFLAGS} -X main.Commit=${COMMIT} -X main.Branch=${BRANCH}"
 
 GORUNFLAGS=${GORUNFLAGS:-}
 
-GO111MODULE=off go run -ldflags "${GOLDFLAGS}" $GORUNFLAGS ./cmd/skycoin/... \
+GO111MODULE=off go run -ldflags "${GOLDFLAGS}" $GORUNFLAGS ./cmd/privateness/... \
     -gui-dir="${DIR}/src/gui/static/" \
     -launch-browser=true \
     -enable-all-api-sets=true \
