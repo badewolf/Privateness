@@ -23,7 +23,7 @@
 .PHONY: fuzz-base58 fuzz-encoder
 .PHONY: check-lang check-lang-es check-lang-zh
 
-COIN ?= skycoin
+COIN ?= privateness
 
 # Static files directory
 GUI_STATIC_DIR = src/gui/static
