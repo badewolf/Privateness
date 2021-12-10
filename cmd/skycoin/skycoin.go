@@ -43,28 +43,26 @@ var (
 	CoinName = "skycoin"
 
 	// GenesisSignatureStr hex string of genesis signature
-	GenesisSignatureStr = "eb10468d10054d15f2b6f8946cd46797779aa20a7617ceb4be884189f219bc9a164e56a5b9f7bec392a804ff3740210348d73db77a37adb542a8e08d429ac92700"
+	GenesisSignatureStr = "05d4045854103f8a8938bb701cc4101c38942a180ba02d328d6f880bf37b387c47e95813d061f94bdf5d894bfebf17f933c5fc92fc9d010480765257c3d19d9b00"
 	// GenesisAddressStr genesis address string
-	GenesisAddressStr = "2jBbGxZRGoQG1mqhPBnXnLTxK6oxsTf8os6"
+	GenesisAddressStr = "24GJTLPMoz61sV4J4qg1n14x5qqDwXqyJJy"
 	// BlockchainPubkeyStr pubic key string
-	BlockchainPubkeyStr = "0328c576d3f420e7682058a981173a4b374c7cc5ff55bf394d3cf57059bbe6456a"
+	BlockchainPubkeyStr = "02933015bd2fa1e0a885c05fb08eb7c647bf8c3188ed5120b51d0d09ccaf525036"
 	// BlockchainSeckeyStr empty private key string
 	BlockchainSeckeyStr = ""
 
 	// GenesisTimestamp genesis block create unix time
-	GenesisTimestamp uint64 = 1426562704
+	GenesisTimestamp uint64 = 1637895025
 	// GenesisCoinVolume represents the coin capacity
-	GenesisCoinVolume uint64 = 100000000000000
+	GenesisCoinVolume uint64 = 165000000000000
 
 	// DefaultConnections the default trust node addresses
 	DefaultConnections = []string{
-		"139.162.121.185:6000",
-		"172.104.164.147:6000",
-		"139.162.248.183:6000",
-		"45.56.109.228:6000",
-		"173.230.130.174:6000",
-		"172.104.99.241:6000",
-		"172.104.57.147:6000",
+		"192.243.100.192:6006",
+		"167.114.97.165:6006",
+		"198.245.62.172:6006",
+		"151.80.37.6:6006",
+		"94.23.32.95:6006",
 	}
 
 	nodeConfig = skycoin.NewNodeConfig(ConfigMode, fiber.NodeConfig{
@@ -76,8 +74,8 @@ var (
 		BlockchainPubkeyStr: BlockchainPubkeyStr,
 		BlockchainSeckeyStr: BlockchainSeckeyStr,
 		DefaultConnections:  DefaultConnections,
-		PeerListURL:         "https://downloads.skycoin.com/blockchain/peers.txt",
-		Port:                6000,
+		PeerListURL:         "http://privateness.coin/blockchain/peers.txt",
+		Port:                6006,
 		WebInterfacePort:    6420,
 		DataDirectory:       "$HOME/.skycoin",
 
@@ -89,13 +87,13 @@ var (
 		CreateBlockMaxDropletPrecision: 3,
 		MaxBlockTransactionsSize:       32768,
 
-		DisplayName:           "Skycoin",
-		Ticker:                "SKY",
+		DisplayName:           "Privateness",
+		Ticker:                "NESS",
 		CoinHoursName:         "Coin Hours",
 		CoinHoursNameSingular: "Coin Hour",
-		CoinHoursTicker:       "SCH",
-		QrURIPrefix:           "skycoin",
-		ExplorerURL:           "https://explorer.skycoin.com",
+		CoinHoursTicker:       "NCH",
+		QrURIPrefix:           "privateness",
+		ExplorerURL:           "https://explorer.privateness.network",
 		VersionURL:            "https://version.skycoin.com/skycoin/version.txt",
 		Bip44Coin:             8000,
 	})

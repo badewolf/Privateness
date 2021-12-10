@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ness-network/privateness/src/cli"
+	"github.com/skycoin/skycoin/src/cli"
 )
 
 func main() {
